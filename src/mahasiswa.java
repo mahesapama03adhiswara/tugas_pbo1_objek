@@ -23,7 +23,7 @@ public class mahasiswa {
         if(nilai >60 - 100){
             hasil_ujian++;
             System.out.println("selamat anda lulus , perisapkan jadi MABA");
-        } else {
+        } else if(nilai > 0 - 59) {
             System.out.println("silahkan coba tahun depan ");
         }
     }
